@@ -1,0 +1,34 @@
+{
+  "name": "hers-image-resolver",
+  "version": "1.0.0",
+  "description": "Extract main image for a given URL, but safe",
+  "main": "src/ImageResolver.js",
+  "directories": {
+    "example": "example",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jasmine-node tests/node/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrija-hers/hersimageresolver.git"
+  },
+  "author": "Maurice Svay <maurice@svay.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/andrija-hers/hersimageresolver/issues"
+  },
+  "homepage": "https://github.com/andrija-hers/hersimageresolver",
+  "devDependencies": {
+    "browserify": "^3.46.1",
+    "gulp": "^3.6.2",
+    "vinyl-source-stream": "^0.1.1",
+    "jasmine-node": "1.x"
+  },
+  "dependencies": {
+    "htmlparser2": "3.x",
+    "request": "^2.36.0",
+    "superagent": "3.x"
+  }
+}
