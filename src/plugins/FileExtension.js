@@ -10,6 +10,8 @@ FileExtension.prototype.resolve = function(url, clbk) {
 
     var pathname = Url.parse(url).pathname;
 
+    if (!pathname) return;
+
     if (pathname.match(/\.(png|jpg|jpeg|gif|bmp|svg)$/i)) {
         clbk(url);
         return;
